@@ -1,5 +1,4 @@
 import { TIMEOUTSECONDS } from './config';
-const axios = require('axios');
 
 const timeout = function (s) {
 	return new Promise((_, reject) => {
